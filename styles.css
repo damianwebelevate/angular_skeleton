@@ -157,14 +157,6 @@ Use of this source code is governed by an MIT-style license that
 can be found in the LICENSE file at http://angular.io/license
 */
 
-.fifty{
-  width: 50%;
-  display: inline;
-  float: left;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  border: 1px solid red;
-}
 .gap, .h{
   clear:both;width:100%;display:block;padding:5px;box-sizing:border-box;-webkit-box-sizing: border-box;color:white;margin:10px 0;
 }
