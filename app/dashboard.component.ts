@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { Hero } from './hero';
 import { HeroService } from './hero.service';
+// import { HeroSearchService } from './hero-search.component';
 
 @Component({
 	selector: 'my-dashboard',
@@ -27,4 +28,5 @@ export class DashboardComponent implements OnInit{
 		let link = ['/detail', hero.id];
 		this.router.navigate(link);
 	}
+
 }
