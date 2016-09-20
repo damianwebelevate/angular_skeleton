@@ -26,5 +26,5 @@ export class HeroDetailComponent implements OnInit{
   goBack(): void{
     window.history.back();
   }
-  @Input() hero: Hero;
+//  @Input() hero: Hero;
 }
